@@ -1,0 +1,116 @@
+.author-own {
+    margin: 50px auto 0 auto;
+    padding: 40px 0 40px 40px;
+    width: 940px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    border-radius: 8PX;
+}
+
+.author-own .own-left {
+    float: left;
+    width: 160px;
+    height: 160px;
+    position: relative;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 2px 0 #eee;
+}
+
+.author-own .own-left img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.author-own .own-right {
+    float: left;
+    margin-left: 40px;
+}
+
+.author-own .own-right span {
+    font-size: 20px;
+    vertical-align: middle;
+    color: #333;
+}
+
+.author-own .own-right i {
+    background: url("../imgs/author/1.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: middle;
+    margin: 0 0 1px 8PX;
+}
+
+.author-own .own-right .tearh {
+    margin: -8px 0 6px 0;
+    color: #666;
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.author-own .own-right .earth {
+    font-size: 16px;
+    color: #999;
+    margin: 0 0 10px 0;
+}
+
+.own-right .own-fans div {
+    overflow: hidden;
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 60px;
+}
+
+.own-right .own-fans span {
+    display: block;
+    line-height: 20px;
+    margin-bottom: 8PX;
+    color: #666;
+    display: block;
+}
+
+.own-right .own-fans .num {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.author-mass {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.author-mass .author-titel {
+    text-align: center;
+    font-size: 18px;
+}
+
+.author-mass .author-titel .notes {
+    border-bottom: 2px solid #fabb02;
+    color: #000;
+    font-weight: 500;
+    display: inline-block;
+    width: 98px;
+    padding-bottom: 8PX;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.author-mass .author-titel .own {
+    display: inline-block;
+    width: 98px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8PX;
+    margin: 30px 0;
+    color: #555;
+    cursor: pointer;
+}

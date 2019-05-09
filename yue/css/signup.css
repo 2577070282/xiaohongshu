@@ -1,0 +1,40 @@
+select {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid rgb(19, 18, 18);
+}
+
+.login-phone select {
+    width: 100px;
+    height: 52px;
+    border-radius: 10px;
+    margin-left: 39px;
+    margin-top: 2px;
+}
+
+.login-phone .phone-number {
+    height: 100%;
+    width: 228px;
+    margin-left: 8px;
+}
+
+.login-password button {
+    margin-top: 30px;
+    margin-left: 58px;
+    font-size: 15px;
+    color: #fabb02;
+}
+
+.login-password button:hover {
+    color: #555555;
+}
+
+#login-signup {
+    margin-left: 24px;
+}
+
+.login-others .signup-others {
+    display: inline-block;
+    font-size: 12px;
+}

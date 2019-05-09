@@ -1,0 +1,667 @@
+.top {
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+}
+
+.top .explore-top {
+    box-shadow: none;
+}
+
+.top .explore-top .explore-right-red {
+    color: #333;
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.discovery-content {
+    width: 850px;
+    height: 1661px;
+    margin: 22px auto 0 auto;
+    overflow: hidden;
+}
+
+.left-card {
+    width: 500px;
+    height: 1641px;
+    float: left;
+}
+
+.right-card {
+    width: 320px;
+    height: 700px;
+    float: right;
+}
+
+
+/* n内容部分 */
+
+.bottom-gap {
+    margin: 0 0 20px 0;
+}
+
+.show-mass {
+    width: 500px;
+    height: 556px;
+}
+
+.carousel {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: #fbfbfb;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: #fbfbfb;
+}
+
+.small-pic {
+    width: 500px;
+    height: 46px;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+.carousel ul {
+    width: 100%;
+    height: 0px;
+}
+
+.carousel ul li {
+    width: 100%;
+    height: 100%;
+    line-height: 1.42857143;
+    font-weight: 400;
+}
+
+.carousel li:first-of-type span {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: 0 0 0 -40px;
+    background: url("../imgs/note-fashion/discovery/1.jpg") no-repeat;
+    background-size: contain;
+    background-position: right center;
+}
+
+.change-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.change-pic .left {
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    left: 10px;
+    background: url("../imgs/note-fashion/discovery/left.png") no-repeat;
+    background-size: contain;
+}
+
+.change-pic .right {
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    right: 10px;
+    background: url("../imgs/note-fashion/discovery/right.png") no-repeat;
+    background-size: contain;
+}
+
+.small-pic .each {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    border-radius: 4px;
+    opacity: 0.6;
+    transition: opacity 0.8s ease;
+    cursor: pointer;
+}
+
+.small-pic .each {
+    background-image: url("../imgs/note-fashion/discovery/small-pic/1.jpg");
+}
+
+.note-top {
+    width: 500px;
+    height: 50px;
+    margin-top: 18px;
+}
+
+.note-top .title {
+    font-size: 24px;
+    font-weight: 500;
+    overflow: hidden;
+    margin: 0.67em 0;
+}
+
+.words {
+    width: 500px;
+    height: 511px;
+}
+
+.words .words-content {
+    word-break: break-all;
+}
+
+.words .words-content p {
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.42857143;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.words .words-content img {
+    width: 18px;
+    vertical-align: -2px;
+}
+
+.tags {
+    width: 500px;
+    height: 76px;
+    margin-top: 30px;
+}
+
+.tags .comment {
+    margin-left: 25px;
+    color: #555;
+}
+
+.tags .star {
+    margin-left: 25px;
+    color: #555;
+}
+
+.tags .like {
+    color: #555;
+}
+
+.tags .like i {
+    background: url("../imgs/ICfont/love.png") no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tags .comment i {
+    background: url("../imgs/ICfont/massage.png") no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tags .star i {
+    background: url("../imgs/ICfont/star.png") no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.publish-date {
+    margin-top: 30px;
+    color: #999;
+}
+
+.discovery-info {
+    width: 480px;
+    height: 50px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 25px;
+    display: flex;
+    font-size: 12px;
+    position: relative;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.discovery-info .author {
+    margin: 9px 11px 0;
+    padding: 0 0 10px 0;
+    overflow: hidden;
+    font-size: 12px;
+    cursor: pointer;
+    color: #333;
+    display: block;
+}
+
+.discovery-info .author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.discovery-info .author div {
+    display: inline-block;
+}
+
+.discovery-info .right {
+    display: inline-block;
+    width: 82px;
+    height: 20px;
+    margin-left: 8px;
+    margin-top: -22px;
+    font-weight: 500;
+    vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    font-size: 14px;
+}
+
+.discovery-info .right h6 {
+    vertical-align: middle;
+}
+
+.share-items {
+    width: 327px;
+    height: 48px;
+    /* background-color: pink; */
+}
+
+.share-items .line {
+    width: 3px;
+    height: 19px;
+    display: block;
+    background: #d8d8d8;
+    float: left;
+    border-radius: 1.5px;
+    margin: 15px 5px 0 0;
+    line-height: 50px;
+}
+
+.share-items .title {
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    padding-left: 20px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.share-items .all-icon {
+    width: 117px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    line-height: 66px;
+}
+
+.share-items .all-icon .char {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    margin-right: 6px;
+    cursor: pointer;
+    background: url("../imgs/ICfont/char.png");
+    background-size: contain;
+}
+
+.share-items .all-icon .wb {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    margin-right: 6px;
+    cursor: pointer;
+    background: url("../imgs/ICfont/wb.png");
+    background-size: contain;
+}
+
+.share-items .all-icon .QQ {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    margin-right: 6px;
+    cursor: pointer;
+    background: url("../imgs/ICfont/QQ.png");
+    background-size: contain;
+}
+
+.all-tip {
+    width: 500px;
+    height: 349px;
+}
+
+.all-tip .top {
+    font-size: 16px;
+    margin: 0 0 20px 0;
+}
+
+.all-tip .remain {
+    width: 5px;
+    height: 16px;
+    display: inline-block;
+    background: #fabb02;
+    vertical-align: middle;
+    margin: 0 7px 0 0;
+}
+
+.all-tip .brief {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+.tip-comment {
+    width: 485px;
+    height: 125px;
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-top: -54px;
+    border-bottom: 1px solid #eee;
+}
+
+.tip-comment .avatar {
+    float: left;
+}
+
+.tip-comment .avatar-img {
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.tip-comment .avatar-img img {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.tip-comment .user-info {
+    width: 57px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+}
+
+.tip-comment .comment-stats {
+    float: right;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666;
+}
+
+.tip-comment .tip {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 14px;
+    line-height: 27px;
+    color: #000;
+}
+
+.user-info .user-nickname {
+    width: 42px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.user-info .publish-time {
+    margin-bottom: 2px;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 14px;
+    color: #999;
+}
+
+.tip-comment .tip {
+    margin-left: 40px;
+    margin-top: 46px;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.tip-comment-two {
+    margin-top: 6px;
+}
+
+.likes .red-icon {
+    background: url("../imgs/ICfont/good.png") no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.discovery-bottom {
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #fabb02;
+    font-weight: 500;
+}
+
+
+/* 右边 */
+
+.right-card .right-author {
+    width: 320px;
+    height: 176px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    color: #000;
+    font-size: 14px;
+    background: #fff;
+}
+
+.right-author .title {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 0 10px 20px;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.right-card .right-bottom {
+    width: 320px;
+    height: 484px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #fff;
+    padding-bottom: 9px;
+    margin-top: 20px;
+}
+
+.right-author a {
+    width: 284px;
+    height: 67px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.right-author .left {
+    width: 50px;
+    height: 56px;
+    margin: 10px 20px 0 20px;
+    padding: 0 0 10px 0;
+    overflow: hidden;
+    margin-top: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #333;
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: 0xp;
+    /* float: left; */
+}
+
+.right-author .right {
+    display: inline-block;
+    width: 170px;
+    height: 43px;
+    padding-bottom: 4px;
+    position: absolute;
+    top: 11px;
+    right: 19px;
+}
+
+.right-author .left img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.right i {
+    background-image: url("../imgs/ICfont/m4.png");
+    width: 18px;
+    height: 13.5px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-top: -6px;
+}
+
+.right-author .right .name-detail {
+    font-size: 16px;
+}
+
+.right-author .right .brief {
+    color: #999;
+    margin: 4px 0 0 0;
+    height: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.right-author .car-info {
+    width: 278px;
+    height: 40px;
+    overflow: hidden;
+    margin: 8px 20px;
+}
+
+.right-author .car-info .car-inner {
+    width: 84px;
+    height: 40px;
+    float: left;
+    margin-right: 8px;
+}
+
+.right-author .car-inner span {
+    display: block;
+}
+
+
+/* 相关笔记 */
+
+.right-bottom .panel-list a {
+    width: 280px;
+    height: 80px;
+    margin: 10px 20px;
+    display: block;
+    color: #555;
+}
+
+.right-bottom .panel-list .div-img {
+    position: relative;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+    float: left;
+    background: #f8f8fa;
+    width: 80px;
+    height: 80px;
+    border-radius: 4PX;
+}
+
+.panel-list .img img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    /* background-size: cover;
+    background-position: center center; */
+    cursor: pointer;
+}
+
+.right-bottom .panel-list .div-words {
+    float: left;
+    width: 190px;
+    margin: 3px 0 0 0;
+}
+
+.right-bottom .div-words .desc {
+    font-size: 14px;
+    height: 38px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    margin: 0;
+}
+
+.right-bottom .div-words .desc:hover {
+    color: red;
+}
+
+.right-bottom .div-words .div-love {
+    margin: 17px 0 0 0;
+    color: #999;
+}
+
+.right-bottom .div-love i {
+    background: url("../imgs/ICfont/love.png") no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* 查看更多 */
+
+.right-card .right-more {
+    line-height: 15px;
+    width: 287px;
+    height: 30px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    margin: 0 20px;
+    padding: 9px 0 0 0;
+    cursor: pointer;
+    color: #555;
+}
+
+.car-info .car-inner .cha {
+    color: #999;
+    font-size: 14px;
+}
+
+.right-bottom h3 {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+    font-weight: 500;
+}
+
+.right-bottom .panel-list {
+    width: 318px;
+    height: 400px;
+    overflow-y: auto;
+    /*多余类容称滚轮显示 */
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 引入携程图标，在标题栏显示 -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>小黄书_标记我的生活</title>
+    <link rel="stylesheet" href="./css/signup.css">
+    <link rel="stylesheet" href="./css/login.css">
+
+</head>
+<!-- 小黄书登录页面 -->
+
+<body>
+    <div class="login-container">
+
+        <div class="login-center">
+            <div class="xhs" id="xhs">小黄书</div>
+            <div class="xhs-login" style="margin-top: 7px">注册小黄书，标记我的生活</div>
+            <div class="login-phone">
+                <select>
+                            <option>+86</option>
+                            <option>中国+86</option>
+                            <option>中国香港特别行政区 +852</option>
+                            <option>中国香港特别行政区 +852</option>
+                            <option>中国台湾地区 +886</option>
+         </select>
+                <input type="text" name="tel" id="tel" class="phone-number" placeholder="手机号或邮箱" value="">
+            </div>
+            <div class="login-password">
+                <input type="password" name="password" id="password" placeholder="请输入6位短信验证码" value="">
+                <button type="button">获取短信验证码</button>
+            </div>
+            <div class="login-options">
+                <button type="button" class="options-password">接收语音验证码</button>
+            </div>
+            <button type="button" class="register reg">注册</button>
+            <div class="login-others" id="login-signup">
+                <button class="signup-others">注册即代表同意《小黄书协议》</button>
+                <button class="signup-others">《隐私保护协议》</button>
+                <button class="signup-others">注册机构码</button>
+            </div>
+            <div class="login-buttom">
+                <div class="SignContainer-switch">已有帐号？
+                    <a href="./signin.html"><span>登录</span></a>
+
+                </div>
+            </div>
+
+        </div>
+        <img src="../yue/imgs/login.gif" alt="" srcset="" class="gif">
+        <img src="../yue/imgs/login-right.gif" alt="" srcset="" class="gif-right">
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../yue/js/signup.js"></script>
+</body>
+
+</html>

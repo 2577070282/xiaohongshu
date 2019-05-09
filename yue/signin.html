@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 引入携程图标，在标题栏显示 -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon .ico">
+    <title>小黄书_标记我的生活</title>
+    <link rel="stylesheet" href="../yue/css/public.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<!-- 小黄书登录页面 -->
+
+<body>
+    <div class="login-container">
+        <div class="login-center">
+            <div class="xhs">小黄书</div>
+            <div class="xhs-login">登录小黄书，标记我的生活</div>
+            <div class="login-phone">
+                <input type="text" name="tel" id="tel" placeholder="手机号或邮箱" value="">
+            </div>
+            <div class="login-password">
+                <input type="password" name="password" id="password" placeholder="密码" value="">
+            </div>
+            <div class="login-options">
+                <button type="button" class="options-phone">手机验证码登录</button>
+                <button type="button" class="options-password">忘记密码？</button>
+            </div>
+            <button type="button" class="register">登录</button>
+            <div class="login-others">
+                <button>二维码登录 •</button>
+                <button>海外手机登录 •</button>
+                <button>社交账号登录</button>
+            </div>
+            <div class="login-buttom">
+                <div class="SignContainer-switch">没有帐号？
+                    <a href="./signup.html"><span>注册</span></a>
+
+                </div>
+            </div>
+
+        </div>
+        <img src="../yue/imgs/login.gif" alt="" srcset="" class="gif">
+        <img src="../yue/imgs/login-right.gif" alt="" srcset="" class="gif-right">
+    </div>
+    <!-- 引入ajax -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../yue/js/signin.js"></script>
+</body>
+
+</html>

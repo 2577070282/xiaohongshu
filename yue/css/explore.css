@@ -1,0 +1,122 @@
+/* 时尚独有样式 */
+
+.explore {
+    width: 1534px;
+    height: auto;
+}
+
+.explore .explore-top {
+    width: 1040px;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+    padding: 1px;
+}
+
+.explore-top img {
+    width: 100px;
+    height: 40px;
+}
+
+.explore-right {
+    margin-top: -48px;
+    margin-left: -120px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    line-height: 50px;
+}
+
+.explore-right .explore-right-size {
+    width: 110px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.explore-right .about-us-others::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    display: block;
+    border: 1px solid #eee;
+    margin-top: -5px;
+    margin-left: 50px;
+    transform: rotate(-45deg);
+    background: #fff;
+    border-left: none;
+    border-bottom: none;
+}
+
+.explore-right .about-us-others {
+    width: 110px;
+    height: 129px;
+    z-index: 1000;
+    background: #fff;
+    border: 1px solid #eee;
+    color: #000;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px #eee;
+    position: absolute;
+    top: 59px;
+    left: 0px;
+    display: none;
+}
+
+.explore-right-size:hover .about-us-others {
+    display: block;
+}
+
+.explore-right .about-us-others a {
+    width: 88px;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    display: block;
+}
+
+.explore-right .explore-right-red {
+    color: #fabb02;
+    border-bottom: 2px solid #fabb02;
+    padding-bottom: 3px;
+}
+
+.note-tab {
+    width: 1140px;
+    height: 40px;
+    margin: 0 auto;
+    border-bottom: 1px solid #eee;
+    /* border-bottom: 1px solid #555;
+    padding-bottom: 3px; */
+}
+
+.note-tab-line {
+    border-bottom: 2px solid #fabb02;
+    padding-bottom: 3px;
+}
+
+.note-tab a {
+    width: 77px;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+/* 查看更多 */
+
+.down-toast {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    color: #ff2741;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}

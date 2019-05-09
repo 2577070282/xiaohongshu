@@ -1,0 +1,114 @@
+.author-massage {
+    width: 1120px;
+    height: 2463px;
+    margin: 0 auto;
+    overflow-x: auto;
+    padding-top: 20px;
+    position: relative;
+}
+
+.author-massage .show {
+    width: 250px;
+    height: auto;
+    display: block;
+    background-color: #fff;
+    margin-top: 30px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+}
+
+
+/* 头部 */
+
+.show .show-heard {
+    width: 100%;
+    height: 90%;
+}
+
+.show .show-heard img {
+    width: 100%;
+    height: 80%;
+}
+
+.show .show-heard h3 {
+    color: #000;
+    font-size: 16px;
+    white-space: initial;
+    font-weight: normal;
+    margin: 13px 15px 11px 15px;
+    line-height: 23px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+
+/* 中部和尾部 */
+
+.show .show-body {
+    width: 100%;
+    height: 10%;
+}
+
+.show .show-body div {
+    display: inline-block;
+}
+
+.show .show-body .show-author {
+    width: 70%;
+    height: 7.4%;
+    position: relative;
+}
+
+.show-body .show-author .show-img {
+    cursor: pointer;
+    width: 11.2%;
+    height: 7.4%;
+    display: inline-block;
+    padding-left: 4%;
+}
+
+.show-author .show-img img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.show-author .show-name {
+    position: absolute;
+    top: 3px;
+    left: 23.2%;
+    color: #555;
+}
+
+.show-body .show-bottom {
+    width: 25.6%;
+    height: 6.56%;
+    display: block;
+    float: right;
+}
+
+.show-body .show-bottom i {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 2px;
+    background: url("../imgs/ICfont/love.png") no-repeat;
+    background-size: contain;
+}
+
+.show-body .show-bottom span {
+    display: inline-block;
+    vertical-align: middle;
+    color: #555;
+}

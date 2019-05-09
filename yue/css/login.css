@@ -1,0 +1,163 @@
+/* login登录页面样式 */
+
+button {
+    border: none;
+    outline: none;
+    background-color: rgba(231, 241, 229, 0.03);
+    cursor: pointer;
+}
+
+.login-container {
+    width: 1800x;
+    height: 765px;
+    background-image: linear-gradient(0deg, rgb(242, 255, 57), rgb(148, 255, 48));
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    padding: 1px;
+}
+
+.login-container .gif {
+    width: 100px;
+    height: 100px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.login-container .gif-right {
+    width: 100px;
+    height: 100px;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+
+.login-center {
+    width: 432px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    background: rgba(231, 241, 229, 0.03);
+}
+
+.xhs {
+    font-size: 80px;
+    text-align: center;
+    color: #fabb02;
+    /* #fabb02 rgb(255, 225, 35) */
+    font-family: '华文琥珀';
+}
+
+.xhs-login {
+    font-size: 30px;
+    text-align: center;
+    color: #fabb02;
+    font-family: 华文琥珀;
+    margin-top: -12px;
+}
+
+.login-phone {
+    height: 52px;
+    margin: 16px auto;
+}
+
+input {
+    line-height: 15px;
+    height: 100%;
+    width: 340px;
+    font-size: 15px;
+    outline: none;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    border-color: #3c763d;
+    border-radius: 10px;
+    padding-left: 6px;
+}
+
+.login-phone input {
+    margin-left: 40px;
+}
+
+.login-password {
+    height: 52px;
+    margin: 16px auto;
+}
+
+.login-password input {
+    margin-left: 40px;
+}
+
+.login-options {
+    height: 40px;
+    width: 340px;
+    display: block;
+    margin-left: 185px;
+}
+
+.login-options .options-phone {
+    margin: 16px auto;
+    font-size: 16px;
+    color: #fabb02;
+}
+
+.login-options .options-phone:hover {
+    color: #555555;
+}
+
+.login-options .options-password {
+    margin: 16px auto;
+    font-size: 16px;
+    color: #555555;
+}
+
+.login-options .options-password:hover {
+    color: #000;
+}
+
+.register {
+    width: 340px;
+    height: 52px;
+    color: #fff;
+    border: 1px solid #fabb02;
+    background: -webkit-linear-gradient(45deg, #fabb02 0%, #ffe645 100%);
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 39px;
+}
+
+.register:hover {
+    box-shadow: pink;
+}
+
+.login-others {
+    margin-left: 72px;
+}
+
+.login-others button {
+    font-size: 14px;
+    color: #555555;
+}
+
+.login-others button:hover {
+    color: #000;
+}
+
+.login-buttom {
+    height: 50px;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    line-height: 14px;
+}
+
+.SignContainer-switch {
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.SignContainer-switch span {
+    color: #fabb02;
+    cursor: pointer;
+}
