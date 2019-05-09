@@ -1,0 +1,148 @@
+/* 头部导航栏样式 start */
+.topnav {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+} 
+
+.topnav .nav-a {
+    color: #333;
+    margin: 0 14px;
+}
+.topnav .nav-right {
+    color: #333;
+    margin: 0 5px;
+    font-size: 14px;
+}
+.topnav .nhv:hover {
+  text-decoration: none;
+  color: rgb(250, 65, 32)
+}
+
+/* 头部导航栏样式 end */
+
+/*  搜索框部分  start */
+.j-search {
+    width: 100%;
+    height: 700px;
+    /* position: relative; */
+    background-image: url(../imgs/imgh/joinbgc.jpg);
+}
+
+.j-search .slogan {
+    width: 898px;
+    height: 140px;
+    position: relative;
+    top: 250px;
+    margin: 0 auto;
+    background-image: url(../imgs/imgh/navs.png);
+    background-size: 100% auto;
+}
+.j-search .search-box {
+    width: 700px;
+    height: 120px;
+    position: relative;
+    top: 300px;
+    margin: 0 auto;
+    border-radius: 2%;
+    background-color:rgba(0, 0, 0, .3);
+}
+.j-search .search-box .search-input-box {
+    display: flex;
+    width: 600px;
+    height: 36px;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 15px;
+    background-color: #fff;
+    position: absolute;
+    left: 60px;
+    top: 30px;
+
+}
+.search-input-box .input-search {
+    width: 500px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: inherit;   
+}
+
+.j-search .search-box .key-words-list {
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    left: 60px;
+    top: 78px;
+    color: #555;
+    font-size: 14px;
+}
+.search-box .key-words-list > li {
+    margin: 0 6px;
+    color: #fff;
+}
+.search-box .key-words {
+    color: #fff;
+}
+.search-box .key-words:hover {
+    color: red;
+    text-decoration: none;
+}
+
+/*  搜索框部分  end */
+
+
+
+/* 招聘部分样式   start */
+
+.hotjob {
+    background-color: #eee;
+}
+.hotjob .hotnews {
+    width: 100%;
+    height: 400px; 
+    
+}
+
+.hotjob .hotnews .job-title {
+    margin-bottom: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.hotnews .recruitment1 {
+    width: 500px;
+    height: 300px;
+    margin-top: 40px;
+    background-color: #fff;
+}
+
+.hotnews .direction {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+}
+
+.hotnews .direction > p {
+    margin: 0 16px;
+}
+.hotnews .direction:hover {
+    color: red;
+}
+
+.hotnews .recruitment2 {
+    width: 500px;
+    height: 300px;
+    margin-top: 40px;
+    background-color: #fff;
+}
+
+
+
+/* 招聘部分样式   end */
+

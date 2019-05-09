@@ -1,0 +1,154 @@
+
+/* 公共样式 */
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+.w {
+    width: 1180px;
+    margin: auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+/* 头部导航栏样式  start */
+
+
+
+
+/* 头部导航栏样式  end */
+
+
+/* 底部样式  start */
+footer.foot-box {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(88, 86, 86);
+}
+
+.foot-box .fbox-up {
+    width: 100%;
+    height: 200px;
+}
+.foot-box .fbox-up .left {
+    width: 40%;
+    height: 100%;
+}
+
+.fbox-up .left > img {
+    width: 214px;
+    height: 87px;
+    margin-top: 20px;
+}
+.fbox-up .left .tool-type {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+}
+.left .tool-type .yx {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   background-color: #aaa;
+}
+
+.foot-box .fbox-up .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.fbox-up .right .breed {
+    width: 30%;
+    height: 60%;
+    color: #d5d5d5;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+}
+.right .breed > a {
+    text-decoration: none;
+    color: #d5d5d5;
+   font-size: 12px;
+}
+.right .breed > a:hover {
+    text-decoration: none;
+}
+
+.right .breed > a:hover .hide {
+    
+  display: block;
+}
+.right .breed .hide {
+    width: auto;
+    height: auto;
+    border-radius: 20%;
+    background-color: #aaa;
+    position: absolute;
+    right: -40px;
+    top: 25px;
+    display: none;
+    font-size: 12px;
+}
+
+.foot-box .fbox-down {
+    width: 100%;
+    height: 200px;
+}
+
+.foot-box .fbox-down > p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #d5d5d5;
+}
+
+/* 底部样式  end */
+
